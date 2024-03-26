@@ -1,0 +1,144 @@
+@import url('https://use.typekit.net/pjl7xcw.css');
+@font-face {
+   font-family: 'Orbit-Regular';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/Orbit-Regular.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+}
+
+/* font-weight: 100 ,300, 400, 500, 700, 800 */
+
+* {
+   font-family: 'new-frank', sans-serif;
+}
+
+body {
+   background-color: #f7e58d !important;
+}
+
+.content {
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.container {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.weatherbox {
+   width: 500px;
+   padding: 40px 36px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-color: #b099e5;
+   border-radius: 24px;
+   box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.1);
+}
+
+.icon_weather {
+   width: 80%;
+   height: 0;
+   padding-bottom: 80%;
+}
+
+.icon_weather img {
+   width: 100%;
+}
+
+.temp {
+   font-size: 72px;
+   font-weight: 700;
+   color: #370f95;
+}
+
+.temp_sign {
+   font-weight: 400;
+   font-size: 36px;
+   vertical-align: text-top;
+}
+.temp_celsius {
+   font-weight: 300;
+   font-size: 42px;
+}
+
+.city {
+   font-size: 42px;
+   color: #370f95;
+}
+
+.weather_desc {
+   font-size: 18px;
+   font-weight: 400;
+   margin-bottom: 50px;
+   color: #481bb3;
+}
+
+.weather_items {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   color: #370f95;
+}
+
+.weather_items .item {
+   text-align: center;
+   border-right: 1px solid #ddd;
+}
+
+.weather_items .item:last-child {
+   border: 0;
+}
+
+.weather_items .item .tit {
+   font-size: 18px;
+   font-family: 'Orbit-Regular';
+   font-weight: 700;
+}
+
+.weather_items .item .txt {
+   font-size: 18px;
+}
+
+.btn_wrap {
+   width: 500px;
+   margin-top: 20px;
+   padding: 0 10px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.btn_wrap button {
+   width: 88px;
+   height: 88px;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   outline: 0;
+   border: 0;
+   border-radius: 50%;
+   background-color: #fff;
+   cursor: pointer;
+   box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.1);
+}
+
+.btn_wrap button img {
+   width: 80%;
+}
+
+.btn_wrap button span {
+   text-transform: capitalize;
+   font-size: 12px;
+   font-weight: 500;
+}
+
+.btn_wrap button span.tit_current {
+   font-family: 'Orbit-Regular';
+   font-weight: 700;
+}
